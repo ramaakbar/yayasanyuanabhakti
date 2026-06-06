@@ -39,6 +39,10 @@ export default function FooterSection() {
                 <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-white transition-colors">
                   Donasi
                 </h3>
+                <p className="text-gray-500 group-hover:text-green-50 text-sm transition-colors leading-relaxed">
+                  Bersama menghadirkan manfaat dan dampak positif melalui
+                  dukungan untuk program sosial
+                </p>
               </a>
             </div>
 
