@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export default function SDGSection() {
   return (
-    <section id="sdgs" className="py-24 bg-white relative overflow-hidden text-center">
+    <section
+      id="sdgs"
+      className="py-24 bg-white relative overflow-hidden text-center"
+    >
       {/* Decorative Background Elements */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-primary-50 rounded-full mix-blend-multiply filter blur-3xl opacity-30 -translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute bottom-0 right-0 w-64 h-64 bg-brand-yellow rounded-full mix-blend-multiply filter blur-3xl opacity-20 translate-x-1/2 translate-y-1/2"></div>
@@ -14,17 +17,20 @@ export default function SDGSection() {
               SUSTAINABLE DEVELOPMENT GOALS
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 font-poppins leading-tight mb-6">
-              Our Sustainable Development Goals <span className="text-primary-600">(SDGs)</span> Focus
+              Our Sustainable Development Goals{" "}
+              <span className="text-primary-600">(SDGs)</span> Focus
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
-              Sustainable Development Goals (SDGs) adalah 17 tujuan global yang ditetapkan oleh PBB pada tahun 2015 
-              sebagai seruan universal untuk mengakhiri kemiskinan, melindungi planet, dan memastikan semua orang 
-              menikmati perdamaian serta kesejahteraan pada tahun 2030.
+              Sustainable Development Goals (SDGs) adalah 17 tujuan global yang
+              ditetapkan oleh PBB pada tahun 2015 sebagai seruan universal untuk
+              mengakhiri kemiskinan, melindungi planet, dan memastikan semua
+              orang menikmati perdamaian serta kesejahteraan pada tahun 2030.
             </p>
             <div className="bg-gray-50 border-l-4 border-primary-500 p-6 rounded-r-2xl text-left shadow-sm">
               <p className="text-gray-700 font-medium italic leading-relaxed">
-                "Yayasan Yuana Bhakti Nusantara berkomitmen untuk turut serta mewujudkan Tujuan Pembangunan Berkelanjutan 
-                pada 7 poin strategis yang menjadi fokus utama aksi kami."
+                "Yayasan Yuana Bhakti Nusantara berkomitmen untuk turut serta
+                mewujudkan Tujuan Pembangunan Berkelanjutan pada 7 poin
+                strategis yang menjadi fokus utama aksi kami."
               </p>
             </div>
           </div>
@@ -34,52 +40,124 @@ export default function SDGSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 reveal-element delay-300">
           <div className="group bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="mb-4 h-24 flex items-center justify-start relative">
-              <Image src="/sa/2.png" alt="SDG 2" fill className="object-contain" style={{objectPosition: 'left'}} />
+              <Image
+                src="/sa/2.png"
+                alt="SDG 2"
+                fill
+                className="object-contain"
+                style={{ objectPosition: "left" }}
+              />
             </div>
-            <h4 className="font-bold text-gray-900 uppercase text-sm tracking-tight mb-2 text-left">Tanpa Kelaparan</h4>
-            <p className="text-xs text-gray-500 text-left">Mendukung ketahanan pangan masyarakat di daerah binaan.</p>
+            <h4 className="font-bold text-gray-900 uppercase text-sm tracking-tight mb-2 text-left">
+              Tanpa Kelaparan
+            </h4>
+            <p className="text-xs text-gray-500 text-left">
+              Mendukung ketahanan pangan masyarakat di daerah binaan.
+            </p>
           </div>
           <div className="group bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="mb-4 h-24 flex items-center justify-start relative">
-              <Image src="/sa/3.png" alt="SDG 3" fill className="object-contain" style={{objectPosition: 'left'}} />
+              <Image
+                src="/sa/3.png"
+                alt="SDG 3"
+                fill
+                className="object-contain"
+                style={{ objectPosition: "left" }}
+              />
             </div>
-            <h4 className="font-bold text-gray-900 uppercase text-sm tracking-tight mb-2 text-left">Kehidupan Sehat & Sejahtera</h4>
-            <p className="text-xs text-gray-500 text-left">Akses layanan kesehatan rutin bagi warga pedalaman.</p>
+            <h4 className="font-bold text-gray-900 uppercase text-sm tracking-tight mb-2 text-left">
+              Kehidupan Sehat & Sejahtera
+            </h4>
+            <p className="text-xs text-gray-500 text-left">
+              Akses layanan kesehatan rutin bagi warga pedalaman.
+            </p>
           </div>
           <div className="group bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="mb-4 h-24 flex items-center justify-start relative">
-              <Image src="/sa/4.png" alt="SDG 4" fill className="object-contain" style={{objectPosition: 'left'}} />
+              <Image
+                src="/sa/4.png"
+                alt="SDG 4"
+                fill
+                className="object-contain"
+                style={{ objectPosition: "left" }}
+              />
             </div>
-            <h4 className="font-bold text-gray-900 uppercase text-sm tracking-tight mb-2 text-left">Pendidikan Berkualitas</h4>
-            <p className="text-xs text-gray-500 text-left">Menyediakan fasilitas belajar yang inklusif untuk masa depan.</p>
+            <h4 className="font-bold text-gray-900 uppercase text-sm tracking-tight mb-2 text-left">
+              Pendidikan Berkualitas
+            </h4>
+            <p className="text-xs text-gray-500 text-left">
+              Menyediakan fasilitas belajar yang inklusif untuk masa depan.
+            </p>
           </div>
           <div className="group bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="mb-4 h-24 flex items-center justify-start relative">
-              <Image src="/sa/11.png" alt="SDG 11" fill className="object-contain" style={{objectPosition: 'left'}} />
+              <Image
+                src="/sa/11.png"
+                alt="SDG 11"
+                fill
+                className="object-contain"
+                style={{ objectPosition: "left" }}
+              />
             </div>
-            <h4 className="font-bold text-gray-900 uppercase text-sm tracking-tight mb-2 text-left">11 Kota dan komunitas berkelanjutan</h4>
-            <p className="text-xs text-gray-500 text-left">Menguatkan pelestarian budaya lokal sebagai bagian dari pembangunan kota dan komunitas yang berkelanjutan.</p>
+            <h4 className="font-bold text-gray-900 uppercase text-sm tracking-tight mb-2 text-left">
+              Kota dan komunitas berkelanjutan
+            </h4>
+            <p className="text-xs text-gray-500 text-left">
+              Menguatkan pelestarian budaya lokal sebagai bagian dari
+              pembangunan kota dan komunitas yang berkelanjutan.
+            </p>
           </div>
           <div className="group bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="mb-4 h-24 flex items-center justify-start relative">
-              <Image src="/sa/8.png" alt="SDG 8" fill className="object-contain" style={{objectPosition: 'left'}} />
+              <Image
+                src="/sa/8.png"
+                alt="SDG 8"
+                fill
+                className="object-contain"
+                style={{ objectPosition: "left" }}
+              />
             </div>
-            <h4 className="font-bold text-gray-900 uppercase text-sm tracking-tight mb-2 text-left">Pekerjaan Layak</h4>
-            <p className="text-xs text-gray-500 text-left">Pendampingan UMKM untuk pertumbuhan ekonomi lokal.</p>
+            <h4 className="font-bold text-gray-900 uppercase text-sm tracking-tight mb-2 text-left">
+              Pekerjaan Layak
+            </h4>
+            <p className="text-xs text-gray-500 text-left">
+              Pendampingan UMKM untuk pertumbuhan ekonomi lokal.
+            </p>
           </div>
           <div className="group bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="mb-4 h-24 flex items-center justify-start relative">
-              <Image src="/sa/13.png" alt="SDG 13" fill className="object-contain" style={{objectPosition: 'left'}} />
+              <Image
+                src="/sa/13.png"
+                alt="SDG 13"
+                fill
+                className="object-contain"
+                style={{ objectPosition: "left" }}
+              />
             </div>
-            <h4 className="font-bold text-gray-900 uppercase text-sm tracking-tight mb-2 text-left">Perubahan Iklim</h4>
-            <p className="text-xs text-gray-500 text-left">Aksi penanaman pohon dan monitoring lingkungan berkelanjutan.</p>
+            <h4 className="font-bold text-gray-900 uppercase text-sm tracking-tight mb-2 text-left">
+              Perubahan Iklim
+            </h4>
+            <p className="text-xs text-gray-500 text-left">
+              Aksi penanaman pohon dan monitoring lingkungan berkelanjutan.
+            </p>
           </div>
           <div className="group bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="mb-4 h-24 flex items-center justify-start relative">
-              <Image src="/sa/17.png" alt="SDG 17" fill className="object-contain" style={{objectPosition: 'left'}} />
+              <Image
+                src="/sa/17.png"
+                alt="SDG 17"
+                fill
+                className="object-contain"
+                style={{ objectPosition: "left" }}
+              />
             </div>
-            <h4 className="font-bold text-gray-900 uppercase text-sm tracking-tight mb-2 text-left">Kemitraan untuk Tujuan</h4>
-            <p className="text-xs text-gray-500 text-left">Membangun kolaborasi strategis dengan berbagai pihak untuk mencapai dampak yang maksimal.</p>
+            <h4 className="font-bold text-gray-900 uppercase text-sm tracking-tight mb-2 text-left">
+              Kemitraan untuk Tujuan
+            </h4>
+            <p className="text-xs text-gray-500 text-left">
+              Membangun kolaborasi strategis dengan berbagai pihak untuk
+              mencapai dampak yang maksimal.
+            </p>
           </div>
         </div>
       </div>
