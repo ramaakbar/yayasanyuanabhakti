@@ -18,11 +18,11 @@ export default function AboutSection() {
               </h3>
               <div className="prose prose-lg text-gray-600 text-justify">
                 <p>
-                  Yayasan Yuana Bhakti Nusantara <strong>YBN</strong> merupakan
-                  organisasi sosial berbadan hukum yang menaungi Indonesia Youth
-                  Movement (IYM). Kami hadir sebagai wadah inklusif yang terbuka
-                  bagi siapa pun yang peduli dan ingin berkontribusi bagi
-                  negeri.
+                  Yayasan Yuana Bhakti Nusantara merupakan organisasi sosial
+                  berbadan hukum yang menaungi Indonesia Youth Movement &amp;
+                  Ragamkara Indonesia. Kami hadir sebagai wadah inklusif yang
+                  terbuka bagi siapa pun yang peduli dan ingin berkontribusi
+                  bagi negeri.
                 </p>
                 <p className="mt-4">
                   Fokus kami murni pada kemanusiaan dan pembangunan
