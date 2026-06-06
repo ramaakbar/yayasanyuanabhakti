@@ -55,10 +55,10 @@ export default function SDGSection() {
           </div>
           <div className="group bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="mb-4 h-24 flex items-center justify-start relative">
-              <Image src="/sa/5.png" alt="SDG 5" fill className="object-contain" style={{objectPosition: 'left'}} />
+              <Image src="/sa/11.png" alt="SDG 11" fill className="object-contain" style={{objectPosition: 'left'}} />
             </div>
-            <h4 className="font-bold text-gray-900 uppercase text-sm tracking-tight mb-2 text-left">Kesetaraan Gender</h4>
-            <p className="text-xs text-gray-500 text-left">Pemberdayaan perempuan melalui ekonomi kreatif.</p>
+            <h4 className="font-bold text-gray-900 uppercase text-sm tracking-tight mb-2 text-left">11 Kota dan komunitas berkelanjutan</h4>
+            <p className="text-xs text-gray-500 text-left">Menguatkan pelestarian budaya lokal sebagai bagian dari pembangunan kota dan komunitas yang berkelanjutan.</p>
           </div>
           <div className="group bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="mb-4 h-24 flex items-center justify-start relative">

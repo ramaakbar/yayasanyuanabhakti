@@ -39,7 +39,7 @@ export default function HeroSection() {
           </p>
           <p className="reveal-element delay-300 text-gray-300 mb-10 max-w-2xl text-lg leading-relaxed">
             Wadah Penggerak Perubahan Sosial yang menaungi{" "}
-            <span className="font-bold">Youth Movement</span> dan{" "}
+            <span className="font-bold">Indonesia Youth Movement</span> dan{" "}
             <span className="font-bold">Ragamkara Indonesia.</span> Berkomitmen
             untuk turut serta membangun negeri melalui pendidikan, kesehatan,
             lingkungan, ekonomi kreatif, dan kebudayaan. Mari turut serta

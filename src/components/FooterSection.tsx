@@ -98,14 +98,14 @@ export default function FooterSection() {
                     className="object-contain"
                   />
                 </div>
-                <div>
+                <div className="flex flex-col">
                   <span className="block font-bold text-xl text-gray-900 leading-none">
                     Yayasan Yuana Bhakti Nusantara
                   </span>
-                  <span className="text-sm text-gray-500">
+                  <span className="text-sm text-gray-500 block">
                     Indonesia Youth Movement
                   </span>
-                  <span className="text-sm text-gray-500">
+                  <span className="text-sm text-gray-500 block">
                     Ragamkara Indonesia
                   </span>
                 </div>
