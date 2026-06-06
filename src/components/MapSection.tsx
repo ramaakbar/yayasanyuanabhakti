@@ -21,9 +21,10 @@ export default function MapSection() {
               </span>
             </h2>
             <p className="text-gray-300 text-lg leading-relaxed mb-8">
-              Dari Sabang sampai Merauke, IYM terus bergerak. Program kami
-              menjangkau berbagai daerah di Indonesia, menghadirkan perubahan
-              nyata bagi masyarakat yang membutuhkan.
+              Dari Sabang sampai Merauke, Kami terus bergerak untuk menjangkau
+              setiap sudut nusantara.. Program kami menjangkau berbagai daerah
+              di Indonesia, menghadirkan perubahan nyata bagi masyarakat yang
+              membutuhkan.
             </p>
           </div>
 

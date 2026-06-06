@@ -2,14 +2,17 @@ import Image from "next/image";
 
 export default function ProgramsSection() {
   return (
-    <section id="program" className="py-20 bg-gradient-to-b from-white to-gray-50">
+    <section
+      id="program"
+      className="py-20 bg-gradient-to-b from-white to-gray-50"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 reveal-element">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 font-poppins">
             Program Utama
           </h2>
           <p className="text-gray-500 mt-2">
-            Dijalankan oleh Indonesia Youth Movement (IYM)
+            Dijalankan oleh Indonesia Youth Movement (IYM) & Ragamkara Indonesia
           </p>
         </div>
 
@@ -30,8 +33,8 @@ export default function ProgramsSection() {
               </h3>
               <p className="text-gray-600 leading-relaxed mb-6">
                 Program berkelanjutan yang hadir langsung di tengah masyarakat,
-                dengan fokus pada desa, kampung, atau kelompok yang menjadi binaan
-                Yayasan Yuana Bhakti Nusantara.
+                dengan fokus pada desa, kampung, atau kelompok yang menjadi
+                binaan Yayasan Yuana Bhakti Nusantara.
               </p>
               <button className="text-primary-600 font-bold hover:underline group-hover:translate-x-2 transition-transform inline-flex items-center gap-2">
                 Selengkapnya
@@ -74,7 +77,9 @@ export default function ProgramsSection() {
                 <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center text-green-600 text-2xl mb-4">
                   <i className="fa-solid fa-hand-holding-heart"></i>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Bhakti Sapa</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  Bhakti Sapa
+                </h3>
                 <p className="text-gray-600 text-sm leading-relaxed flex-grow">
                   Bhakti Sapa merupakan salah satu program sosial rutin yang
                   dilaksanakan setiap bulan atau pada hari-hari peringatan

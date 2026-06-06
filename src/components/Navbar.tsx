@@ -32,7 +32,9 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled || isMobileMenuOpen ? "glass-nav py-2" : "bg-transparent py-4"
+        isScrolled || isMobileMenuOpen
+          ? "glass-nav py-2"
+          : "bg-transparent py-4"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -43,19 +45,16 @@ export default function Navbar() {
             onClick={() => window.scrollTo(0, 0)}
           >
             <div className="h-12 w-12 relative rounded-lg shadow-sm transition-transform duration-300 group-hover:scale-110">
-                <Image
+              <Image
                 src="/asset/LOGO YBN_NO BG.png"
                 alt="Logo YBN"
                 fill
                 className="object-contain"
-                />
+              />
             </div>
             <div className="flex flex-col">
               <span className="font-bold text-lg md:text-xl text-gray-900 tracking-tight leading-none group-hover:text-primary-600 transition-colors">
                 Yayasan Yuana Bhakti Nusantara
-              </span>
-              <span className="font-medium text-xs text-primary-600 tracking-wider uppercase mt-0.5">
-                Home of Indonesia Youth Movement
               </span>
             </div>
           </div>
@@ -115,7 +114,9 @@ export default function Navbar() {
       {/* Mobile Menu Panel */}
       <div
         className={`lg:hidden bg-white/95 backdrop-blur-md border-t absolute w-full shadow-xl left-0 transition-all duration-300 ease-in-out origin-top transform ${
-          isMobileMenuOpen ? "scale-y-100 opacity-100 pointer-events-auto" : "scale-y-0 opacity-0 pointer-events-none"
+          isMobileMenuOpen
+            ? "scale-y-100 opacity-100 pointer-events-auto"
+            : "scale-y-0 opacity-0 pointer-events-none"
         }`}
       >
         <div className="px-6 pt-4 pb-8 space-y-3">
@@ -138,7 +139,8 @@ export default function Navbar() {
             onClick={toggleMobileMenu}
             className="flex items-center gap-3 px-4 py-3 text-lg font-semibold text-gray-800 hover:bg-primary-50 hover:text-primary-600 rounded-xl transition-all border-l-4 border-transparent hover:border-primary-600 font-poppins"
           >
-            <i className="fa-solid fa-hand-holding-heart w-6 text-center"></i> Program
+            <i className="fa-solid fa-hand-holding-heart w-6 text-center"></i>{" "}
+            Program
           </a>
           <div className="pt-6 mt-2 border-t border-gray-100">
             <button
