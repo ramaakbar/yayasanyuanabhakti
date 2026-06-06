@@ -12,7 +12,7 @@ export default function ProgramsSection() {
             Program Utama
           </h2>
           <p className="text-gray-500 mt-2">
-            Dijalankan oleh Indonesia Youth Movement (IYM) & Ragamkara Indonesia
+            Dijalankan oleh Indonesia Youth Movement & Ragamkara Indonesia
           </p>
         </div>
 
