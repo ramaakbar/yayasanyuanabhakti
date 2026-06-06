@@ -124,7 +124,7 @@ export default function AboutSection() {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 Kenapa{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-primary-600">
-                  Indonesia Youth Movement
+                  Yayasan Yuana Bhakti Nusantara
                 </span>
                 ?
               </h2>
