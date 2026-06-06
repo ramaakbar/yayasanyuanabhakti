@@ -22,8 +22,8 @@ export default function MapSection() {
             </h2>
             <p className="text-gray-300 text-lg leading-relaxed mb-8">
               Dari Sabang sampai Merauke, Kami terus bergerak untuk menjangkau
-              setiap sudut nusantara.. Program kami menjangkau berbagai daerah
-              di Indonesia, menghadirkan perubahan nyata bagi masyarakat yang
+              setiap sudut nusantara. Program kami menjangkau berbagai daerah di
+              Indonesia, menghadirkan perubahan nyata bagi masyarakat yang
               membutuhkan.
             </p>
           </div>
