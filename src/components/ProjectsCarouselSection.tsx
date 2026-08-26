@@ -24,6 +24,8 @@ const projects: Project[] = [
   { id: 10, image: "/asset/bn 6 sumbawa (1).jpg", category: "Bhakti Nusantara 6", title: "Sumbawa", location: "Nusa Tenggara Barat" },
   { id: 11, image: "/asset/bn 7 pnd.jpg", category: "Bhakti Nusantara 7", title: "Pangandaran", location: "Jawa Barat" },
   { id: 12, image: "/asset/bn 8 bwi.jpg", category: "Bhakti Nusantara 8", title: "Banyuwangi", location: "Jawa Timur" },
+  { id: 13, image: "/asset/bhakti nusantara 9.webp", category: "Bhakti Nusantara 9", title: "Sukabumi", location: "Jawa Barat" },
+  { id: 14, image: "/asset/bhakti nusantara 10 Alahan Panjang Sumatera Barat.webp", category: "Bhakti Nusantara 10", title: "Alahan Panjang", location: "Sumatera Barat" },
 ];
 
 export default function ProjectsCarouselSection() {
@@ -167,7 +169,8 @@ export default function ProjectsCarouselSection() {
               "Medan", "Agam", "Natuna", "Bintan", "Bangka Belitung",
               "Jakarta", "Depok", "Bekasi", "Bandung", "Cianjur",
               "Ciamis", "Pangandaran", "Jepara", "Yogyakarta", "Malang",
-              "Banyuwangi", "Bali", "Sumbawa", "Dompu", "Bima"
+              "Banyuwangi", "Bali", "Sumbawa", "Dompu", "Bima",
+              "Sukabumi", "Alahan Panjang"
             ].map((loc, i) => (
               <span key={i} className="flex gap-8">
                 <span>{loc}</span> <span className="text-primary-500">•</span>

@@ -17,7 +17,7 @@ export default function TeamSection() {
               </h5>
               <div className="relative w-full aspect-[3/4] rounded-[2rem] border-[3px] border-primary-500 overflow-hidden mb-5 shadow-lg group-hover:-translate-y-2 group-hover:shadow-primary-500/30 transition-all duration-300">
                 <Image
-                  src="/asset/Hairullah Rizki.png"
+                  src="/asset/Hairullah Rizki setengah.png"
                   alt="Hairullah Rizki"
                   fill
                   className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
@@ -35,7 +35,7 @@ export default function TeamSection() {
               </h5>
               <div className="relative w-full aspect-[3/4] rounded-[2rem] border-[3px] border-primary-500 overflow-hidden mb-5 shadow-lg group-hover:-translate-y-2 group-hover:shadow-primary-500/30 transition-all duration-300">
                 <Image
-                  src="/asset/Wahyuning Suci Prabandini.png"
+                  src="/asset/Wahyuning Suci Prabandini setengah.png"
                   alt="Wahyuning Suci"
                   fill
                   className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
@@ -53,7 +53,7 @@ export default function TeamSection() {
               </h5>
               <div className="relative w-full aspect-[3/4] rounded-[2rem] border-[3px] border-primary-500 overflow-hidden mb-5 shadow-lg group-hover:-translate-y-2 group-hover:shadow-primary-500/30 transition-all duration-300">
                 <Image
-                  src="/asset/Ineu Melia.png"
+                  src="/asset/Ineu Melia setengah.png"
                   alt="Ineu Melia Febrianti"
                   fill
                   className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
