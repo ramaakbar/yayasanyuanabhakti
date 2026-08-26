@@ -17,10 +17,7 @@ export default function FooterSection() {
   return (
     <>
       {/* Mari Turut Berkontribusi */}
-      <section
-        id="kontribusi"
-        className="py-20 bg-white relative overflow-hidden"
-      >
+      <section id="kontribusi" className="py-20 bg-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="reveal-element text-3xl md:text-4xl font-bold text-gray-900 font-poppins mb-12">
             Mari Turut Berkontribusi
@@ -40,8 +37,8 @@ export default function FooterSection() {
                   Donasi
                 </h3>
                 <p className="text-gray-500 group-hover:text-green-50 text-sm transition-colors leading-relaxed">
-                  Bersama menghadirkan manfaat dan dampak positif melalui
-                  dukungan untuk program sosial
+                  Bersama menghadirkan manfaat dan dampak positif melalui dukungan untuk program
+                  sosial
                 </p>
               </a>
             </div>
@@ -59,8 +56,7 @@ export default function FooterSection() {
                   Kolaborasi CSR
                 </h3>
                 <p className="text-gray-500 group-hover:text-green-50 text-sm transition-colors leading-relaxed">
-                  Sinergi perusahaan untuk menciptakan dampak sosial
-                  berkelanjutan bagi negeri.
+                  Sinergi perusahaan untuk menciptakan dampak sosial berkelanjutan bagi negeri.
                 </p>
               </a>
             </div>
@@ -78,8 +74,7 @@ export default function FooterSection() {
                   Kolaborasi Program
                 </h3>
                 <p className="text-gray-500 group-hover:text-purple-50 text-sm transition-colors leading-relaxed">
-                  Jalin kemitraan strategis dalam pengembangan program inovatif
-                  bersama kami.
+                  Jalin kemitraan strategis dalam pengembangan program inovatif bersama kami.
                 </p>
               </a>
             </div>
@@ -106,16 +101,12 @@ export default function FooterSection() {
                   <span className="block font-bold text-xl text-gray-900 leading-none">
                     Yayasan Yuana Bhakti Nusantara
                   </span>
-                  <span className="text-sm text-gray-500 block">
-                    Indonesia Youth Movement
-                  </span>
-                  <span className="text-sm text-gray-500 block">
-                    Ragamkara Indonesia
-                  </span>
+                  <span className="text-sm text-gray-500 block">Indonesia Youth Movement</span>
+                  <span className="text-sm text-gray-500 block">Ragamkara Indonesia</span>
                 </div>
               </div>
               <p className="text-gray-500 text-sm leading-relaxed mb-2">
-                AHU-0007998.AH.01.04./2025
+                AHU-0028678.AH.01.12/2026
               </p>
               <p className="text-gray-600 italic mb-6 font-serif">
                 "Merajut Asa di Setiap Sudut Nusantara"
@@ -130,13 +121,10 @@ export default function FooterSection() {
               <ul className="space-y-3 text-sm text-gray-600">
                 <li className="flex items-start gap-2 hover:text-primary-600 transition-colors">
                   <i className="fa-regular fa-envelope w-5 mt-1"></i>{" "}
-                  <span className="break-all">
-                    yuanabhaktinusantara@gmail.com
-                  </span>
+                  <span className="break-all">yuanabhaktinusantara@gmail.com</span>
                 </li>
                 <li className="flex items-center gap-2 hover:text-primary-600 transition-colors">
-                  <i className="fa-brands fa-whatsapp w-5"></i> +62
-                  851-2672-4272
+                  <i className="fa-brands fa-whatsapp w-5"></i> +62 851-2672-4272
                 </li>
                 <li className="flex items-center gap-2 hover:text-primary-600 transition-colors">
                   <i className="fa-solid fa-location-dot w-5"></i> Indonesia
@@ -177,9 +165,8 @@ export default function FooterSection() {
               © 2025 Yayasan Yuana Bhakti Nusantara.
             </p>
             <p className="text-sm text-gray-400 mt-2 md:mt-0 group cursor-default">
-              Made with{" "}
-              <i className="fa-solid fa-heart text-custom-red-600 animate-pulse"></i>{" "}
-              for Indonesia
+              Made with <i className="fa-solid fa-heart text-custom-red-600 animate-pulse"></i> for
+              Indonesia
             </p>
           </div>
         </div>
@@ -212,12 +199,9 @@ export default function FooterSection() {
             <div className="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl animate-bounce">
               <i className="fa-brands fa-whatsapp"></i>
             </div>
-            <h4 className="text-lg font-bold text-gray-900 mb-2">
-              Jadi Relawan Sekarang!
-            </h4>
+            <h4 className="text-lg font-bold text-gray-900 mb-2">Jadi Relawan Sekarang!</h4>
             <p className="text-gray-600 mb-6">
-              Silakan hubungi kami via WhatsApp untuk pendaftaran relawan
-              terbaru dan info kegiatan.
+              Silakan hubungi kami via WhatsApp untuk pendaftaran relawan terbaru dan info kegiatan.
             </p>
             <a
               href="https://wa.me/6285126724272"

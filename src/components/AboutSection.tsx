@@ -9,8 +9,7 @@ export default function AboutSection() {
           <div className="flex flex-col lg:flex-row gap-16 items-start">
             <div className="lg:w-1/2 reveal-element">
               <h2 className="text-primary-600 font-bold uppercase tracking-widest text-sm mb-2 flex items-center gap-2">
-                <span className="w-8 h-[2px] bg-primary-600 inline-block"></span>{" "}
-                Tentang Kami
+                <span className="w-8 h-[2px] bg-primary-600 inline-block"></span> Tentang Kami
               </h2>
               <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 font-poppins leading-tight">
                 Mengenal Yayasan <br />
@@ -18,16 +17,14 @@ export default function AboutSection() {
               </h3>
               <div className="prose prose-lg text-gray-600 text-justify">
                 <p>
-                  Yayasan Yuana Bhakti Nusantara merupakan organisasi sosial
-                  berbadan hukum yang menaungi Indonesia Youth Movement (IYM)
-                  &amp; Ragamkara Indonesia. Kami hadir sebagai wadah inklusif
-                  yang terbuka bagi siapa pun yang peduli dan ingin
+                  Yayasan Yuana Bhakti Nusantara merupakan organisasi sosial berbadan hukum yang
+                  menaungi Indonesia Youth Movement (IYM) &amp; Ragamkara Indonesia. Kami hadir
+                  sebagai wadah inklusif yang terbuka bagi siapa pun yang peduli dan ingin
                   berkontribusi bagi negeri.
                 </p>
                 <p className="mt-4">
-                  Fokus kami murni pada kemanusiaan dan pembangunan
-                  berkelanjutan melalui 5 pilar utama: Pendidikan, Kesehatan,
-                  Lingkungan, Ekonomi Kreatif, dan Kebudayaan.
+                  Fokus kami murni pada kemanusiaan dan pembangunan berkelanjutan melalui 5 pilar
+                  utama: Pendidikan, Kesehatan, Lingkungan, Ekonomi Kreatif, dan Kebudayaan.
                 </p>
               </div>
 
@@ -37,12 +34,8 @@ export default function AboutSection() {
                   <i className="fa-solid fa-file-shield"></i>
                 </div>
                 <div>
-                  <p className="text-xs text-gray-500 uppercase font-bold">
-                    Legalitas Resmi
-                  </p>
-                  <p className="text-gray-900 font-semibold">
-                    AHU-0007998.AH.01.04./2025
-                  </p>
+                  <p className="text-xs text-gray-500 uppercase font-bold">Legalitas Resmi</p>
+                  <p className="text-gray-900 font-semibold">AHU-0028678.AH.01.12/2026</p>
                 </div>
               </div>
             </div>
@@ -57,21 +50,16 @@ export default function AboutSection() {
                   <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center shadow-sm mb-4 text-primary-600 text-xl">
                     <i className="fa-solid fa-handshake"></i>
                   </div>
-                  <h4 className="font-bold text-gray-900 mb-2">
-                    Kolaborasi Strategis
-                  </h4>
+                  <h4 className="font-bold text-gray-900 mb-2">Kolaborasi Strategis</h4>
                   <p className="text-sm text-gray-600">
-                    Sinergi pemerintah, komunitas, dan masyarakat untuk dampak
-                    maksimal.
+                    Sinergi pemerintah, komunitas, dan masyarakat untuk dampak maksimal.
                   </p>
                 </div>
                 <div className="reveal-element delay-200 bg-custom-red-100/50 p-6 rounded-2xl border border-custom-red-400/20 hover:shadow-lg hover:-translate-y-2 transition-all duration-300 cursor-default">
                   <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center shadow-sm mb-4 text-custom-red-600 text-xl">
                     <i className="fa-solid fa-people-carry-box"></i>
                   </div>
-                  <h4 className="font-bold text-gray-900 mb-2">
-                    Pemberdayaan Inklusif
-                  </h4>
+                  <h4 className="font-bold text-gray-900 mb-2">Pemberdayaan Inklusif</h4>
                   <p className="text-sm text-gray-600">
                     Menciptakan kemandirian masyarakat secara berkelanjutan.
                   </p>
@@ -80,9 +68,7 @@ export default function AboutSection() {
                   <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center shadow-sm mb-4 text-green-600 text-xl">
                     <i className="fa-solid fa-seedling"></i>
                   </div>
-                  <h4 className="font-bold text-gray-900 mb-2">
-                    Keberlanjutan
-                  </h4>
+                  <h4 className="font-bold text-gray-900 mb-2">Keberlanjutan</h4>
                   <p className="text-sm text-gray-600">
                     Program jangka panjang yang relevan dengan kebutuhan lokal.
                   </p>
@@ -91,9 +77,7 @@ export default function AboutSection() {
                   <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center shadow-sm mb-4 text-orange-600 text-xl">
                     <i className="fa-solid fa-universal-access"></i>
                   </div>
-                  <h4 className="font-bold text-gray-900 mb-2">
-                    Akses untuk Semua
-                  </h4>
+                  <h4 className="font-bold text-gray-900 mb-2">Akses untuk Semua</h4>
                   <p className="text-sm text-gray-600">
                     Keadilan sosial tanpa memandang latar belakang.
                   </p>
@@ -112,12 +96,7 @@ export default function AboutSection() {
               <div className="absolute -top-10 -left-10 w-40 h-40 bg-primary-100 rounded-full opacity-50 blur-3xl animate-pulse"></div>
               <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-brand-green/30 rounded-full opacity-50 blur-3xl animate-pulse delay-100"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl z-10 w-full hover:scale-[1.02] transition-transform duration-500 aspect-video">
-                <Image
-                  src="/asset/kenapa iym.png"
-                  alt="Teamwork"
-                  fill
-                  className="object-cover"
-                />
+                <Image src="/asset/kenapa iym.png" alt="Teamwork" fill className="object-cover" />
               </div>
             </div>
             <div className="lg:w-1/2 reveal-element delay-200">
@@ -129,10 +108,9 @@ export default function AboutSection() {
                 ?
               </h2>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Kami telah melaksanakan lebih dari 40 project baik offline
-                maupun online di berbagai daerah di Indonesia, dan berkerja sama
-                dengan berbagai instansi baik pemerintah, swasta, media, dan
-                komunitas lokal.
+                Kami telah melaksanakan lebih dari 40 project baik offline maupun online di berbagai
+                daerah di Indonesia, dan berkerja sama dengan berbagai instansi baik pemerintah,
+                swasta, media, dan komunitas lokal.
               </p>
             </div>
           </div>
@@ -140,10 +118,7 @@ export default function AboutSection() {
       </section>
 
       {/* Vision & Mission */}
-      <section
-        id="visi-misi"
-        className="py-20 bg-gray-900 text-white relative overflow-hidden"
-      >
+      <section id="visi-misi" className="py-20 bg-gray-900 text-white relative overflow-hidden">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-primary-900/50 rounded-l-full blur-3xl opacity-30"></div>
         <div className="absolute bottom-0 left-0 w-1/3 h-1/2 bg-custom-red-900/40 rounded-r-full blur-3xl opacity-30"></div>
 
@@ -153,10 +128,9 @@ export default function AboutSection() {
               Visi & Misi
             </h2>
             <p className="max-w-3xl mx-auto text-gray-300 text-lg leading-relaxed mt-4">
-              Menjadi organisasi penggerak perubahan sosial yang menghadirkan
-              akses, fasilitas, keadilan, dan pemberdayaan bagi masyarakat
-              melalui aksi-aksi kolaboratif yang berkualitas, inklusif, dan
-              berkelanjutan, khususnya di bidang pendidikan, kesehatan,
+              Menjadi organisasi penggerak perubahan sosial yang menghadirkan akses, fasilitas,
+              keadilan, dan pemberdayaan bagi masyarakat melalui aksi-aksi kolaboratif yang
+              berkualitas, inklusif, dan berkelanjutan, khususnya di bidang pendidikan, kesehatan,
               lingkungan, ekonomi kreatif, serta kebudayaan.
             </p>
           </div>
