@@ -121,7 +121,7 @@ export default function FooterSection() {
               <ul className="space-y-3 text-sm text-gray-600">
                 <li className="flex items-start gap-2 hover:text-primary-600 transition-colors">
                   <i className="fa-regular fa-envelope w-5 mt-1"></i>{" "}
-                  <span className="break-all">yuanabhaktinusantara@gmail.com</span>
+                  <span className="break-all">mail@yuanabhaktinusantara.org</span>
                 </li>
                 <li className="flex items-center gap-2 hover:text-primary-600 transition-colors">
                   <i className="fa-brands fa-whatsapp w-5"></i> +62 851-2672-4272
