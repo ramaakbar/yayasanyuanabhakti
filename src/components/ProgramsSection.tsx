@@ -70,6 +70,35 @@ export default function ProgramsSection() {
             </div>
           </div>
 
+          {/* Kembara Budaya & Karya */}
+          <div className="reveal-element flex flex-col md:flex-row gap-8 items-center bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-2xl transition-all duration-500 group">
+            <div className="md:w-1/2 overflow-hidden rounded-2xl relative w-full h-64">
+              <Image
+                src="/asset/KBK.webp"
+                alt="Kembara Budaya & Karya"
+                fill
+                className="object-cover shadow-md group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+            <div className="md:w-1/2">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-primary-600 transition-colors">
+                Kembara Budaya &amp; Karya (KBK)
+              </h3>
+              <p className="text-gray-600 leading-relaxed mb-6">
+                Kembara Budaya dan Karya adalah salah satu program strategis
+                yang akan dilaksanakan oleh Ragamkara Indonesia, sebuah
+                inisiatif yang berfokus pada budaya dan potensi lokal di
+                Indonesia. Melalui program ini, kami berharap dapat turut serta
+                berkontribusi pada pengembangan potensi lokal dan pelestarian
+                budaya Indonesia.
+              </p>
+              <button className="text-primary-600 font-bold hover:underline group-hover:translate-x-2 transition-transform inline-flex items-center gap-2">
+                Selengkapnya
+                <i className="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
           {/* Grid for Bhakti Sapa & Ngobat */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="reveal-element delay-100 bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col h-full">
